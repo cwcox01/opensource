@@ -1,0 +1,120 @@
+/* setting body styling */
+
+body {
+	background: #212123;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* slider div content */
+
+.general-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* general content slider div */
+
+.general-content-slider {
+	--larguraDoItem: 150px;
+	--alturaDoItem: 100px;
+	width: var(--larguraDoItem);
+	height: var(--alturaDoItem);
+	perspective: 1000px;
+}
+
+/* slider general class div */
+
+.slider-general {
+	--rotatey: 0;
+	font-size: 4rem;
+	position: relative;
+	transform: rotatey(var(--rotatey));
+	transform-style: preserve-3d;
+	user-select: none;
+	cursor: grab;
+}
+
+/* this styling class is for the slider-card class */
+.slider-card {
+	opacity: 0.97;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	transition: opacity 0.5s;
+}
+
+/* slider card styling */
+
+.slider-card h1 {
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+.slider-general,
+.slider-card {
+	width: 100%;
+	height: 100%;
+}
+
+/* each inidividual style card css properties */
+
+.slider-card:nth-child(1) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, blue, yellow);
+}
+
+.slider-card:nth-child(2) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, yellow, black);
+}
+
+.slider-card:nth-child(3) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, darkgray, black);
+}
+.slider-card:nth-child(4) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, blue, darkgray);
+}
+
+.slider-card:nth-child(5) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, dodgerblue, black);
+}
+
+.slider-card:nth-child(6) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, darkgray, dodgerblue);
+}
+
+.slider-card:nth-child(7) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, royalblue, black);
+}
+
+.slider-card:nth-child(8) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, #3f4e4f, #a27b5c);
+}
+
+.slider-card:nth-child(9) {
+	--rotatey: 0;
+	transform: rotatey(var(--rotatey)) translatez(var(--tz));
+	background: linear-gradient(-229deg, #dcd7c9, dodgerblue);
+}
+
+/* I have styled this navbar slider with different coloring to show you can have different colors.  If you add any slider cards and want different colors, you will need to 
+change the color individidually.  If you simply want 1 color for everything then assign a variable to color.
+*/
