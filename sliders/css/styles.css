@@ -1,0 +1,90 @@
+/* The styles.css is a collection of progress bar styling for each progress bar.  Each progress bar has a 
+id assign to it corresponding to the correct progress bar.  The button styling is universal for every button.  The 
+progress bars are a collection of different color schemes and ideas.
+*/
+
+/* body styling and common elements also classes/id */
+
+body {
+	color: black;
+	background-color: darkgray;
+}
+
+#myProgress {
+	width: 100%;
+	background-color: #ddd;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 0.5rem;
+}
+
+button:hover {
+	background-color: darkgrey;
+	color: black;
+	border: 1px solid black;
+}
+
+/* progress bar styling */
+
+/* progress bar 1 */
+
+#myBar1 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(-270deg, dodgerblue, yellow, gray, black);
+}
+
+/* progress bar 2 */
+
+#myBar2 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(270deg, dodgerblue, yellow, white);
+}
+
+/* progress bar 3 */
+
+#myBar3 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(90deg, black, white, darkblue, green);
+}
+
+/* progress bar 4 */
+
+#myBar4 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(630deg, cyan, white, yellow, green);
+}
+
+/* progress bar 5 */
+
+#myBar5 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(90deg, maroon, blue, green);
+}
+
+/* progress bar 6 */
+
+#myBar6 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(90deg, maroon, yellow, green);
+}
+
+/* progress bar 7 */
+
+#myBar7 {
+	width: 10%;
+	height: 30px;
+	background: linear-gradient(270deg, dodgerblue, maroon, darkblue);
+}
