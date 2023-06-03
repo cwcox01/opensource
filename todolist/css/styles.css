@@ -1,0 +1,74 @@
+/* body element */
+
+body {
+	background-color: dodgerblue;
+}
+
+/* site container */
+
+.site-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	min-height: 80vh;
+}
+
+/* to do list container */
+
+.todo-container {
+	background-color: burlywood;
+	color: black;
+	padding: 4rem 4rem;
+	border: 3px solid white;
+	border-radius: 2px;
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+/* to do list container header */
+
+.todo-header {
+	padding-bottom: 1rem;
+}
+
+/* input and add item button  */
+
+input {
+	margin-right: 1rem;
+}
+
+.add-item {
+	padding: 0.125rem 1rem;
+	background-color: white;
+}
+
+/* setting styles for the list items in to do list */
+
+ul li {
+	list-style-type: none;
+	background-color: aliceblue;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul li:nth-child(odd) {
+	background: wheat;
+}
+
+.close {
+	right: 0;
+	top: 0;
+	padding: 12px 16px 12px 16px;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+ul li:hover {
+	background-color: dodgerblue;
+}
