@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Currency Conversion</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<div class="content-container">
+			<div>
+				<h1>Currency Conversion</h1>
+				<h3>USD Conversion</h3>
+			</div>
+			<div class="conversion-selections">
+				<label>Input USD Amount</label>
+				<input
+					for="conversion"
+					name="conversion"
+					placeholder="Input USD Amount" />
+				<div class="country-selection">
+					<label>Select Country</label>
+					<select name="country">
+						<option value="uk">United Kingdom</option>
+						<option value="canada">Canada</option>
+						<option value="germany">Germany</option>
+						<option value="mexico">Mexico</option>
+						<option value="norway">Norway</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<button onclick="convert()">Calculate</button>
+			</div>
+			<div class="conversion-totals">
+				<p class="conversion-rate">The country conversion rate is:</p>
+				<p class="conversion-total">Your total is:</p>
+			</div>
+		</div>
+		<script src="./js/index.js"></script>
+	</body>
+</html>

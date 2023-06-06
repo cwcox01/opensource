@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: azure;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.content-container {
+	border: 3px solid black;
+	border-radius: 6px;
+	padding: 3rem 3rem;
+	background-color: aliceblue;
+}
+
+.conversion-selections {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+}
+
+input {
+	width: 45%;
+}
+
+label {
+	padding-bottom: 0.5rem;
+}
+
+.country-selection {
+	padding-top: 1rem;
+}
